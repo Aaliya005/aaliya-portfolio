@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-bg-light text-dark antialiased;
+    font-family: "Inter", system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-16 md:py-20;
+  }
+  .container-main {
+  @apply max-w-[1500px] mx-auto px-6;
+}
+}
+
+/* Add this to your existing index.css (e.g. near the top, alongside other html/body rules) */
+html {
+  scroll-behavior: smooth;
+}
