@@ -5,7 +5,7 @@ A personal portfolio website showcasing my work as a Java Full-Stack Developer â
 **Live Demo:** [aaliya-portfolio-gamma.vercel.app](https://aaliya-portfolio-gamma.vercel.app/)
 **Resume:** [Download PDF](./public/Aaliya_Manyar_Resume.pdf)
 
-![Portfolio Preview](./screenshots/hero.png)
+![Portfolio Preview](./public/screenshots/hero.png)
 
 ---
 
@@ -32,11 +32,11 @@ I'm a recent Computer Science graduate (CGPA: 8.43) from JSPM University, Pune, 
 
 | Hero | About |
 |---|---|
-| ![Hero section](./screenshots/hero.png) | ![About section](./screenshots/about.png) |
+| ![Hero section](./public/screenshots/hero.png) | ![About section](./public/screenshots/about.png) |
 
 | Education | Selected Work |
 |---|---|
-| ![Education section](./screenshots/education.png) | ![Works section](./screenshots/works.png) |
+| ![Education section](./public/screenshots/education.png) | ![Works section](./public/screenshots/works.png) |
 
 ---
 
