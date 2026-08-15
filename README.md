@@ -1,16 +1,126 @@
-# React + Vite
+# Aaliya Manyar — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website showcasing my work as a Java Full-Stack Developer — built to be fast, clean, and easy to navigate.
 
-Currently, two official plugins are available:
+**Live Demo:** [aaliya-portfolio-gamma.vercel.app](https://aaliya-portfolio-gamma.vercel.app/)
+**Resume:** [Download PDF](./public/Aaliya_Manyar_Resume.pdf)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Portfolio Preview](./screenshots/hero.png)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## About
 
-## Expanding the ESLint configuration
+I'm a recent Computer Science graduate (CGPA: 8.43) from JSPM University, Pune, focused on building full-stack web applications with React.js, Spring Boot, and MySQL. This portfolio highlights my projects, skills, education, and certifications, and includes a working contact form for reaching out directly.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- Responsive hero section with quick-glance developer stats
+- About section outlining my approach and core strengths
+- Interactive tech stack showcase across languages, frontend, backend, databases, and tools
+- Academic journey timeline (education section)
+- Certifications and credentials section
+- Selected work / project showcase with live links
+- Functional contact form
+- Clean, modern UI built with Tailwind CSS
+
+---
+
+## Screenshots
+
+| Hero | About |
+|---|---|
+| ![Hero section](./screenshots/hero.png) | ![About section](./screenshots/about.png) |
+
+| Education | Selected Work |
+|---|---|
+| ![Education section](./screenshots/education.png) | ![Works section](./screenshots/works.png) |
+
+---
+
+## Tech Stack
+
+**Frontend**
+- React.js
+- Vite
+- Tailwind CSS
+- Lucide React (icons)
+
+**Tools**
+- Git & GitHub
+- VS Code
+
+---
+
+## Projects Featured
+
+| Project | Description | Status | Link |
+|---|---|---|---|
+| **ChatWave** | Real-time messaging app with 1:1 and group chat, topic-based channels, and voice messaging | In Progress | Coming soon |
+| **SAWARI** | Women's safety-focused ride-sharing platform with driver verification and safety features | Available | [View Repo](https://github.com/Aaliya005/sawari-frontend) |
+
+---
+
+## Getting Started
+
+Clone the repository and run it locally:
+
+```bash
+git clone https://github.com/Aaliya005/aaliya-portfolio.git
+cd aaliya-portfolio
+npm install
+npm run dev
+```
+
+The app will be available at `http://localhost:5173` by default.
+
+### Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## Project Structure
+
+```
+aaliya-portfolio/
+├── public/
+│   ├── Aaliya_Manyar_Resume.pdf
+│   └── ...images
+├── src/
+│   ├── components/
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── TechStack.jsx
+│   │   ├── Education.jsx
+│   │   ├── Certifications.jsx
+│   │   ├── MyWork.jsx
+│   │   ├── CTABanner.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Navbar.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── tailwind.config.js
+└── package.json
+```
+
+---
+
+## Connect With Me
+
+- **GitHub:** [github.com/Aaliya005](https://github.com/Aaliya005)
+- **LinkedIn:** [linkedin.com/in/aaliyamanyar](https://www.linkedin.com/in/aaliyamanyar)
+- **Email:** aaliyamanyar05@gmail.com
+
+---
+
+## License
+
+This project is open for reference and learning purposes. Please don't copy the content or design as-is for your own portfolio.
