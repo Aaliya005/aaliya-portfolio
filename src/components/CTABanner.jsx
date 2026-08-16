@@ -174,7 +174,7 @@ export default function CTABanner() {
               >
                 {/* Primary */}
                 <a
-                  href="/resume.pdf"
+                  href="/Aaliya_Manyar_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="
